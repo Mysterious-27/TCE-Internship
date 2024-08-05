@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h3, button, input, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, sans-serif;
+}
+.cal{
+    background-color: rgba(245, 245, 245, 0.304);
+    text-align: center;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 23%;
+    border: 0px  ;
+    border-radius: 10px;
+    height: auto;
+    width: 50%;
+    padding: auto;
+    box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+}
+
+body {
+    background-image: url(https://websta.me/wp-content/uploads/2020/10/online-calculators-1536x1024.jpeg);
+  background-color: #14b6d3;
+  text-align: center;
+  padding: 20px;
+}
+
+h1.calculator {
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/421/108/large_2x/cute-calculator-character-flat-cartoon-template-design-illustration-vector.jpg); */
+  background-color: rgba(0, 255, 255, 0.263);  
+  font-size: 80px;
+  color: #333;
+  margin-top: 50px;
+}
+
+input[type="number"] {
+  padding: 25px;
+  width: 25%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+}
+
+select {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #0074d9;
+  color: white;
+  padding: 10px 20px;
+  border: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h3#res {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #f8f5f5;
+  background-color: #030303;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.R8ZdNRRJlBs1tPkMSTwPHwHaDA?pid=ImgDet&rs=1");
+    background-color: rgba(0, 255, 255, 0.578);
+}
+#Forum{
+    position: absolute;
+    border: 1px solid black;
+    height: 70%;
+    width: 50%;
+    border-width: 0;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 8%;
+    background-color: rgba(255, 255, 255, 0.308);
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.646);
+}
+.Block{
+    background-color: rgba(255, 255, 255, 0.879);
+    width: 50%;
+    height: 7%;
+    border-radius: 20px;
+    border-width: 1px;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+button{
+    background-color: blue;
+    border-radius: 20px;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    width: 40%;
+    height: 9%;
+    font-family: 'Tilt Neon', sans-serif;
+    margin-top: 3%;
+}
+button:hover{
+    background-color: rgb(73, 73, 240);
+}
+h2{
+    font-family: 'Merriweather', serif;
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.402);
+    color: white;
+}
+h3{
+    text-align: center;
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    margin-left: 39%;
+    margin-top: 35%;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
